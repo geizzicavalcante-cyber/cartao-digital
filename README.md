@@ -1,6 +1,6 @@
 # Cartão Virtual – HTML & CSS
 
-Este projeto é um **cartão virtual digital** desenvolvido como parte do meu início nos estudos em **Front-End**, utilizando apenas **HTML e CSS**.
+Este projeto é um **cartão virtual digital** desenvolvido como parte do meu início nos estudos em **Front-End**, utilizando apenas **HTML e CSS**, em uso real.
 
 O objetivo principal foi praticar a estruturação de páginas web, aplicação de estilos básicos e criação de um layout funcional, permitindo centralizar links de contato e facilitar o acesso às informações.
 
