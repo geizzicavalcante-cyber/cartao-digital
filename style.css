@@ -13,49 +13,99 @@ body {
   justify-content: center;
 }
 
+/* CARD */
 .card {
-  background: #fff;
-  width: 320px;
-  padding: 30px 25px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 340px;
+  padding: 32px 24px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
+/* TÍTULO */
 .card h1 {
-  color: #b03060;
+  color: #9c2c57; /* levemente mais escuro (melhor contraste) */
   font-weight: 600;
+  font-size: 24px;
 }
 
+/* SUBTÍTULO */
 .subtitle {
-  color: #888;
-  margin-bottom: 12px;
-  font-size: 14px;
+  color: #666;
+  margin-bottom: 14px;
+  font-size: 15px;
 }
 
+/* DESCRIÇÃO */
 .description {
-  font-size: 14px;
-  margin-bottom: 22px;
-  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
+/* TEXTO GUIA */
+.instruction {
+  font-size: 14px;
+  margin-bottom: 14px;
+  color: #444;
+}
+
+/* BOTÕES */
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
+/* BOTÃO */
 .btn {
   text-decoration: none;
-  background: #b03060;
-  color: white;
-  padding: 14px;
+  background: #9c2c57;
+  color: #ffffff;
+  padding: 16px;
   border-radius: 12px;
-  transition: all 0.3s ease;
-  font-weight: 500;
+  font-weight: 600;
+  display: block;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
+.btn i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* HOVER */
 .btn:hover {
-  background: #8e254b;
-  transform: scale(1.03);
+  background: #7a2144;
+  transform: scale(1.02);
+}
+
+/* FOCO (ACESSIBILIDADE REAL) */
+.btn:focus {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+
+/* TEXTO FINAL */
+.info {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* RESPONSIVO */
+@media (max-width: 400px) {
+  .card {
+    margin: 10px;
+    padding: 24px 18px;
+  }
+}
+
+/* REDUZIR ANIMAÇÃO (ACESSIBILIDADE) */
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
 }

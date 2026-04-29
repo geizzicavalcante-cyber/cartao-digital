@@ -9,40 +9,75 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
 
-  <div class="card">
+  <main class="card" role="main">
+
     <h1>Doce Mania</h1>
     <p class="subtitle">Confeitaria Artesanal</p>
 
-<p class="description">
-  Bolos, brownies e doces artesanais feitos com carinho, cuidado e aquele sabor de casa que aquece o coração 💕
-</p>
+    <p class="description">
+      Bolos, brownies e doces artesanais feitos com carinho e sabor caseiro 💕
+    </p>
 
-<div class="buttons">
-  <a href="https://wa.me/5521971664340" class="btn" target="_blank">
-    📱 Peça pelo WhatsApp
-  </a>
+    <p class="instruction">
+      Escolha como fazer seu pedido:
+    </p>
 
-  <a href="https://www.instagram.com/confeitariaartesanaldocemania" 
-     class="btn" 
-     target="_blank">
-    📸 Veja no Instagram
-  </a>
+    <nav class="buttons" aria-label="Links para pedido e redes sociais">
 
-  <a href="https://www.ifood.com.br/delivery/sao-goncalo-rj/doce-mania-confeitaria-artesanal-barro-vermelho/8a729d9f-5c32-4be2-ab91-0cc55ddefb3b" 
-     class="btn" 
-     target="_blank">
-    🛵 Peça pelo iFood
-  </a>
-</div>
+      <a href="https://wa.me/5521971664340"
+         class="btn"
+         target="_blank"
+         aria-label="Abrir conversa no WhatsApp para fazer pedido">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        Peça pelo WhatsApp
 
+      </a>
+
+      <a href="https://www.instagram.com/confeitariaartesanaldocemania"
+         class="btn"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Abrir Instagram da Doce Mania para ver produtos">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        Ver fotos no Instagram
+
+      </a>
+
+      <a href="https://www.ifood.com.br/delivery/sao-goncalo-rj/doce-mania-confeitaria-artesanal-barro-vermelho/8a729d9f-5c32-4be2-ab91-0cc55ddefb3b"
+         class="btn"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Abrir iFood para fazer pedido online">
+        🛵 Peça pelo iFood
+      </a>
+
+    </nav>
+
+    <p class="info">
+      Atendimento via WhatsApp: seg a sáb, 9h às 18h
+    </p>
+
+  </main>
+
+  <!-- VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
 </body>
 </html>
