@@ -33,5 +33,13 @@ Acesse o projeto no GitHub Pages: [Cartão Virtual](https://geizzicavalcante-cyb
 🔗 Código fonte
 Confira o código completo no repositório: [GitHub](https://github.com/geizzicavalcante-cyber/cartao-digital)
 
+## 📚 Aprendizados
+
+- Estruturei uma página utilizando HTML semântico (`<main>`, `<nav>`)
+- Apliquei conceitos de acessibilidade com `aria-label` e foco em navegação simples
+- Melhorei a legibilidade e a experiência do usuário com ajustes de CSS (contraste e espaçamento)
+- Entendi a importância da jornada do usuário para facilitar ações como pedidos
+- Apliquei boas práticas de segurança em links externos (`rel="noopener noreferrer"`)
+- Publiquei e atualizei um projeto real em produção
 
 Desenvolvido por **Geizzi Cavalcante** 💻
